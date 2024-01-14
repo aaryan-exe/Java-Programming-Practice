@@ -78,7 +78,5 @@ public class rock_paper_scissor_game {
             if (a == 3 && n == 3) {
                 System.out.println("Tie!");
             }
-
-        
     }
 }
