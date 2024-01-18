@@ -1,9 +1,5 @@
 import java.util.Random;
-import java.util.Scanner;
 
-/**
- * Toss
- */
 public class Toss {
 
     public static void main(String[] args) {
