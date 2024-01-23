@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class rock_paper_scissor_game {
     public static void main(String[] args) {
-        int i;
         Scanner sc = new Scanner(System.in);
         Random ran = new Random();
         int a = ran.nextInt(1, 4);
