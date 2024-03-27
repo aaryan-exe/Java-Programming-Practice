@@ -16,6 +16,7 @@ public class income_tax {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your Income");
         float n = sc.nextFloat();
+        sc.close();
 
         if (n > 250000f && n <= 500000f) {
             System.out.println("Income tax=" + 0.05 * n);

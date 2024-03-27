@@ -6,6 +6,7 @@ public class krishnamurthy_number {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number");
         int n = sc.nextInt();
+        sc.close();
         int temp, i, r, a = 0, fact;
         temp = n;
         while (n > 0) {

@@ -9,6 +9,7 @@ public class Find_largest_number_and_check_right_angle_triangle {
         int num2 = sc.nextInt();
         System.out.println("Enter number 3");
         int num3 = sc.nextInt();
+        sc.close();
 
         if (num1 >= num2) {
             if (num1 >= num3) {

@@ -8,6 +8,7 @@ public class Prime_number_series {
         int n = sc.nextInt();
         System.out.println("Enter Last number");
         int l = sc.nextInt();
+        sc.close();
         int count, i;
         while (n <= l) {
             count = 0;

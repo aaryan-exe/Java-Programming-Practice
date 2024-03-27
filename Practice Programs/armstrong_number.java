@@ -5,7 +5,8 @@ public class armstrong_number {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number");
         int n = sc.nextInt();
-        int i, temp, r, sum = 0;
+        sc.close();
+        int temp, r, sum = 0;
         temp = n;
         while (n > 0) {
             r = n % 10;

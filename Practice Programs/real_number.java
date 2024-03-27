@@ -6,6 +6,7 @@ public class real_number {
 
         System.out.println("Enter number");
         int n = sc.nextInt();
+        sc.close();
         int i, sum = 0;
 
         for (i = 1; i < n; i++) {

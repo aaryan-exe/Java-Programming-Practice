@@ -8,6 +8,7 @@ public class rock_paper_scissor_game {
         int a = ran.nextInt(1, 4);
         System.out.println("Enter \n 1 for rock \n 2 for paper \n 3 for scissor");
         int n = sc.nextInt();
+        sc.close();
         // User command
         if (n == 1) {
             System.out.println("You have choosen rock");

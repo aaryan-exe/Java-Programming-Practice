@@ -4,7 +4,7 @@ public class Week_of_day {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number");
         int d=sc.nextInt();
-
+        sc.close();
         switch (d) {
                 case 1:
                 System.out.println("Monday");

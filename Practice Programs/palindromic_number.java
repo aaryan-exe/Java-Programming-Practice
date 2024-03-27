@@ -5,6 +5,7 @@ public class palindromic_number {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number");
         int n=sc.nextInt();
+        sc.close();
         int r,sum=0,temp;
         temp=n;
         while (n>0) {
